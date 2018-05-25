@@ -4,7 +4,7 @@ $(document).ready(function() {
   // const trelloApiRoot = 'http://localhost:8080/v1/trello/';
   //Heroku
   const apiRoot = 'https://tranquil-ridge-75021.herokuapp.com/v1/task/';
-  const trelloApiRoot = 'https://tranquil-ridge-75021.herokuapp.com/v1/task/';
+  const trelloApiRoot = 'https://tranquil-ridge-75021.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
